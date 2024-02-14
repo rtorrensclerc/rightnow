@@ -1,0 +1,33 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  label_username:
+    name: label_username
+    description: rn:msg:LABEL_DISPLAY_USERNAME_BOX_LBL
+    default: ""
+    type: STRING
+  label_password:
+    name: label_password
+    description: rn:msg:LABEL_DISPLAY_PASSWORD_BOX_LBL
+    default: ""
+    type: STRING
+  placeholder_password:
+    name: placeholder_password
+    type: string
+    description: "Placeholder que se muestra junto al cuadro de la contrase\xF1a"
+    default: ""
+    required: false
+  placeholder_username:
+    name: placeholder_username
+    type: string
+    description: Placeholder que se muestra junto al cuadro de nombre de usuario
+    default: ""
+    required: false
+extends:
+  widget: standard/login/LoginForm
+  components:
+  - php
+  overrideViewAndLogic: "true"

@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  id:
+    name: id
+    type: string
+    description: Identificador de Incidente de Insumos
+    default: ~
+    required: false
+  get_incident_data_ajax_endpoint:
+    name: get_incident_data_ajax_endpoint
+    type: ajax
+    description: get_incident_data_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget

@@ -1,0 +1,64 @@
+/**
+ * base.css: Base CSS for waiting
+ */
+
+.rn_waiting {}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url(images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

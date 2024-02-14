@@ -1,0 +1,48 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  read_only:
+    name: read_only
+    type: boolean
+    description: "Determina si se comporta como solo lectura o no"
+    default: false
+    required: false
+  getHHDataSelected_ajax_endpoint:
+    name: getHHDataSelected_ajax_endpoint
+    type: ajax
+    description: getHHDataSelected_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  createIncident_ajax_endpoint:
+    name: createIncident_ajax_endpoint
+    type: ajax
+    description: createIncident_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  requestIncident_ajax_endpoint:
+    name: requestIncident_ajax_endpoint
+    type: ajax
+    description: requestIncident_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  getInfoIncident_ajax_endpoint:
+    name: getInfoIncident_ajax_endpoint
+    type: ajax
+    description: getInfoIncident_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  cancelIncident_ajax_endpoint:
+    name: cancelIncident_ajax_endpoint
+    type: ajax
+    description: cancelIncident_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  requestpending_request_list_ajax_endpoint:
+    name: requestpending_request_list_ajax_endpoint
+    type: ajax
+    description: requestpending_request_list_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget

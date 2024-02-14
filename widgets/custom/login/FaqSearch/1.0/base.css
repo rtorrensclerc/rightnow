@@ -1,0 +1,52 @@
+/**
+ * base.css: Base CSS for FaqSearch
+ */
+.rn_FaqSearch {
+
+}
+
+.rn_AccountItem {
+    text-align: center;
+    font-size: 0;
+    position: relative;
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin: 4px;
+  }
+  
+  .rn_AccountItem ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: initial;
+    right: 0;
+    position: absolute;
+  }
+  
+  .rn_AccountItem ul li {
+    white-space: nowrap;
+  }
+  
+  .rn_AccountItem .rn_AccountItemIcon a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-position: -190px -75px;
+  }
+  
+  .rn_AccountItemItem {
+  
+  }
+  
+  .rn_AccountItemIcon {
+    
+  }
+  
+  .rn_AccountItemIcon a {
+    font-size: 0;
+  }
+  
+  .rn_AccountItemItems {
+    position: absolute;
+  }
+  

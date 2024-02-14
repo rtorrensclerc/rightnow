@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  getInvoicePaymentList:
+    name: getInvoicePaymentList
+    type: ajax
+    description: Punto final AJAX por defecto
+    default: /ci/ajax/widget
+    required: false
+  getLastConsumptionsLines:
+    name: getLastConsumptionsLines
+    type: ajax
+    description: Obtiene el detalle del mes de las lineas asociadas a una factura
+    default: /ci/ajax/widget
+    required: false

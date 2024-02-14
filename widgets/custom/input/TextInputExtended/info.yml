@@ -1,0 +1,10 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+extends:
+  widget: standard/input/TextInput
+  components:
+  - php
+  - css
+  overrideViewAndLogic: "true"

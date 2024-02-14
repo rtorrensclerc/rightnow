@@ -1,0 +1,15 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  default_ajax_endpoint:
+    name: default_ajax_endpoint
+    type: ajax
+    description: Punto final AJAX por defecto
+    default: /ci/ajax/widget
+    required: false
+info:
+  description: "Widget que desplegar\xE1 informaci\xF3n del incidente, de forma similar
+    a c\xF3mo lo hace el widget standard output/DataDisplay"

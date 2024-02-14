@@ -1,0 +1,26 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+info:
+  description: "Permite presentar una imagen indicando que existe una carga de datos"
+attributes:
+  init_started:
+    name: init_started
+    type: boolean
+    description: "Determina si se presenta inmediatamente o no"
+    default: false
+    required: false
+  tone:
+    name: tone
+    type: string
+    description: "Tono del backlight [dark|clear]"
+    default: "dark"
+    required: false
+  scope:
+    name: scope
+    type: string
+    description: "Determina al ámbito en el que se presentará el widget"
+    default: "global"
+    required: false

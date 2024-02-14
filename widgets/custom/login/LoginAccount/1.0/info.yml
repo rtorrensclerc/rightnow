@@ -1,0 +1,23 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+info:
+  description: "Formulario para autenticaci\xF3n de cuenta."
+attributes:
+  in_line:
+    name: in_line
+    description: "Determina si se presenta el formulario con la posici\xF3n horizontal o vertical"
+    default: false
+    type: boolean
+  url_redirect:
+    name: url_redirect
+    description: "Url a donde será redireccionado al autentificarse correctamente"
+    default: /app/reparacion/home
+    type: string
+  url_redirect_disconnect:
+    name: url_redirect_disconnect
+    description: "Url a donde será redireccionado al desconectarse"
+    default: /app/reparacion/login
+    type: string

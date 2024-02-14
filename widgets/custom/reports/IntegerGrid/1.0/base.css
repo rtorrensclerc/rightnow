@@ -1,0 +1,13 @@
+/**
+ * base.css: Base CSS for IntegerGrid
+ */
+.rn_IntegerGrid {
+
+}
+
+.rn_IntegerGrid a {
+    text-decoration: underline;
+}
+.rn_IntegerGrid .rn_HiddenPaginator {
+     display:none;
+ }

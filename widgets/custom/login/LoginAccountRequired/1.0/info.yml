@@ -1,0 +1,15 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  url_redirect:
+    name: url_redirect
+    type: string
+    description: "Url a la que ser\xE1 redireccionado en caso de no estar logueado."
+    default: /app/error/error_id/4
+    required: false
+info:
+  description: Widget para delimitar el acceso a paginas que solo se puedan acceder
+    por quien se encuentre autentificado por account

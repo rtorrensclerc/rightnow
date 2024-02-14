@@ -1,0 +1,20 @@
+/**
+ * base.css: Base CSS for search_transaccions
+ */
+
+
+ .rn_search_transaccions {}
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+     padding: 5px 7px;
+     border: none;
+     border: 1px solid rgb(153, 153, 153);
+     font-size: 14px;
+     display: inline-block;
+     min-height: 27px;
+     border-radius: 20px;
+ }

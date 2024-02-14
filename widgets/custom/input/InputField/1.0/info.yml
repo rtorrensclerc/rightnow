@@ -1,0 +1,46 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  read_only:
+    name: read_only
+    type: boolean
+    description: "Determina si se comporta como solo lectura"
+    default: false
+    required: false
+  required:
+    name: required
+    type: boolean
+    description: "Determina si es obligatorio"
+    default: false
+    required: false
+  disabled:
+    name: disabled
+    type: boolean
+    description: "Determina si se desabilita"
+    default: false
+    required: false
+  placeholder:
+    name: placeholder
+    type: string
+    description: "Placeholder del campo"
+    default: ""
+    required: false
+  show_count:
+    name: show_count
+    type: boolean
+    description: "Presenta la cantidad de caracteres restantes"
+    default: false
+    required: false
+  display_type:
+    name: display_type
+    type: string
+    description: "Permite indicar el tipo de dato que procesará el widget"
+  visible:
+    name: visible
+    type: boolean
+    description: "Determina si se presenta o no el widget"
+    default: true
+    required: false

@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  sendCSV_ajax_endpoint:
+    name: sendCSV_ajax_endpoint
+    type: ajax
+    description: Endpoint que envía y valida el CSV
+    required: false
+    default: /ci/ajax/widget

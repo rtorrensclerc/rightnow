@@ -1,0 +1,42 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  read_only:
+    name: read_only
+    type: boolean
+    description: "Determina si se comporta como solo lectura o no"
+    default: false
+    required: false
+  sendCSV_ajax_endpoint:
+    name: sendCSV_ajax_endpoint
+    type: ajax
+    description: "Endpoint que envía y valida el CSV"
+    required: false
+    default: /ci/ajax/widget
+  parseCSV_ajax_endpoint:
+    name: parseCSV_ajax_endpoint
+    type: ajax
+    description: "Endpoint que envía y valida el CSV"
+    required: false
+    default: /ci/ajax/widget
+  processCSV_ajax_endpoint:
+    name: processCSV_ajax_endpoint
+    type: ajax
+    description: "Endpoint que envía y valida el CSV"
+    required: false
+    default: /ci/ajax/widget
+  requestIncident_ajax_endpoint:
+    name: requestIncident_ajax_endpoint
+    type: ajax
+    description: "Endpoint para crear la solicitud de insumos múltiples"
+    required: false
+    default: /ci/ajax/widget
+  CreateTickettIncident_ajax_endpoint:
+    name: CreateTickettIncident_ajax_endpoint
+    type: ajax
+    description: "Endpoint para crear la solicitud de insumos múltiples"
+    required: false
+    default: /ci/ajax/widget

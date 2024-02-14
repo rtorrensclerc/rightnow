@@ -1,0 +1,96 @@
+/**
+ * base.css: Base CSS for devGrid2
+ */
+.rn_devGrid2 {
+
+}
+/**
+ * IntegerGrid.css: Presentation CSS
+ */
+ /**
+  * base.css: Base CSS for IntegerGrid
+  */
+ .rn_devGrid2 {
+     margin-top: 10px;
+     margin-bottom: 8px;
+     color: #656565;
+     overflow-x: auto;
+     overflow-y: hidden;
+ }
+
+ .rn_devGrid2 table {
+     width: 100%;
+     border: none;
+     border-spacing: 0;
+     border-collapse: separate;
+ }
+
+ .rn_devGrid2 table tbody {
+ }
+
+ .rn_devGrid2 table th {
+     color: #e23734;
+     font-weight: bold;
+ }
+
+ .rn_devGrid2 table td, .rn_devGrid2 table tr, .rn_devGrid2 table th {
+     padding: 10px 10px 10px 6px;
+     border-left: 1px solid #EBECEB;
+     border-bottom: 1px solid #EBECEB;
+     border-width: 0 0 1px 1px;
+     font-size: inherit;
+     margin: 0;
+     overflow: visible;
+ }
+
+ .rn_devGrid2 table td:first-child, .rn_devGrid2 table tr:first-child, .rn_devGrid2 table th:first-child {
+     border-left: 0px;
+ }
+
+ .rn_devGrid2 table tr:nth-child(even) {
+     background-color: #F6F6F6;
+ }
+
+ .rn_devGrid2 table thead tr {
+     /* background-color: #ffffff; */
+ }
+.rn_devGrid2 .rn_HiddenPaginator {
+     display:none;
+ }
+ .rn_IntegerPaginator ul {padding: 0;margin: 0;}
+
+ .rn_IntegerPaginator li {
+     display: inline-block;
+     /* text-align: center; */
+     /* list-style: none; */
+     overflow: hidden;
+     margin: 0 3px;
+ }
+
+ .rn_IntegerPaginator li:first-child {
+     border-radius: 5px 0 0 5px;
+ }
+
+ .rn_IntegerPaginator li:last-child {
+     border-radius: 0 5px 5px 0;
+ }
+
+ .rn_IntegerPaginator a, .rn_IntegerPaginator li .pageSelected {
+     padding: 10px;
+     display: block;
+     font-weight: bold;
+ }
+ .rn_IntegerPaginator li .pageSelected {
+     border: 1px solid #e23734;
+     background-color: #e23734;
+     color: #fff;
+ }
+ .rn_IntegerPaginator a {
+     border: 1px solid #EDEDED;
+     background-color: #F5F5F5;
+ }
+
+ .rn_IntegerPaginator {
+     margin: 10px 0;
+     text-align: center;
+ }

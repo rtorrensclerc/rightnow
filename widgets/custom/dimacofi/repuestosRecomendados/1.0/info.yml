@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  ticketid:
+    name: ticketid
+    type: string
+    description: Id del ticket
+    default: ""
+    required: false

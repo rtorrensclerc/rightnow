@@ -1,0 +1,48 @@
+/**
+ * base.css: Base CSS for createIncidentServiceAndParts
+ */
+.rn_createIncidentServiceAndParts {
+
+}
+
+.rn_createIncidentServiceAndParts .caja {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #e23734;
+  /*background: #e23734;*/
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid #e23734;
+}
+
+.rn_createIncidentServiceAndParts .submit {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 10px 20px 0;
+  border: 1px solid #ffffff;
+  background: #e23734;
+  /*border-radius: 8px 8px 8px 8px;*/
+  color: #ffffff;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #e23734; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.rn_createIncidentServiceAndParts .hide {
+  display: none;
+}

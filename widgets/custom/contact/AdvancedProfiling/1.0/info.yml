@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  c_id:
+    name: c_id
+    type: integer
+    description: ID del contacto
+    required: false
+  updateProfiling_ajax_endpoint:
+    name: updateProfiling_ajax_endpoint
+    type: ajax
+    description: Petición AJAX para la actualización del perfilamiento
+    default: /ci/ajax/widget
+    required: false

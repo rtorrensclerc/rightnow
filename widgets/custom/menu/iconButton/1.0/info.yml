@@ -1,0 +1,24 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  p_href:
+    name: p_href
+    type: string
+    description: url de boton
+    default: '#'
+    required: false
+  p_title:
+    name: p_title
+    type: string
+    description: titulo de boton
+    default: ""
+    required: false
+  p_class:
+    name: p_class
+    type: string
+    description: clase para identificar icono
+    default: ""
+    required: false

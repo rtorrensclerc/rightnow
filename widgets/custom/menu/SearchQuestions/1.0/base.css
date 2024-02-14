@@ -1,0 +1,45 @@
+.rn_SearchQuestions {
+  text-align: center;
+  font-size: 0;
+  position: relative;
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+}
+
+.rn_SearchQuestions ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: initial;
+  right: 0;
+  position: absolute;
+}
+
+.rn_SearchQuestions ul li {
+  white-space: nowrap;
+}
+
+
+.rn_SearchQuestions .rn_SearchQuestionsIcon a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-position: -95px -75px;
+}
+
+.rn_SearchQuestionsItem {
+
+}
+
+.rn_SearchQuestionsIcon {
+  
+}
+
+.rn_SearchQuestionsIcon a {
+  font-size: 0;
+}
+
+.rn_SearchQuestionsItems {
+  position: absolute;
+}

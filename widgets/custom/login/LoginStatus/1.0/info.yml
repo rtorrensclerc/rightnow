@@ -1,0 +1,11 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  show_login:
+    name: show_login
+    description: Determina si presentar o no el inicio de sesión
+    default: true
+    type: boolean

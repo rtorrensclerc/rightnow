@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  SendMailRequest_ajax_endpoint:
+    name: SendMailRequest_ajax_endpoint
+    type: ajax
+    description: Envia un Correo a Cobraza Finaza o u Comercial
+    default: /ci/ajax/widget
+    required: false

@@ -1,0 +1,25 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  download_ajax_endpoint:
+    name: download_ajax_endpoint
+    type: ajax
+    description: Método que permite la descarga mediante AJAX
+    default: /ci/ajax/widget
+    required: false
+  report_id:
+    name: report_id
+    type: int
+    description: "ID de reporte, desde donde se obtendr\xE1 la informaci\xF3n a descargar"
+    default: 0
+    required: true
+  valid_types:
+    name: valid_types
+    type: string
+    description: "Determina los formatos válidos de descarga"
+    default: "CSV,JSON,XLSX"
+info:
+  description: "Extrae datos de un reporte."

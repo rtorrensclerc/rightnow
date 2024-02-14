@@ -1,0 +1,10 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  module_id:
+    name: module_id
+    description: "Indica el ID de los módulos separados por coma para realizar la validación por perfilamiento."
+    type: string

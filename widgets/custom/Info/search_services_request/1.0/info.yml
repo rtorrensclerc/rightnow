@@ -1,0 +1,13 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+
+  getTrx_ajax_endpoint:
+    name: getTrx_ajax_endpoint
+    type: ajax
+    description: getTrx_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget

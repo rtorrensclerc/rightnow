@@ -1,0 +1,32 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  getConsumptionLastSixMonths:
+    name: getConsumptionLastSixMonths
+    type: ajax
+    description: Obtiene el consumo de los ultimos 6 meses
+    default: /ci/ajax/widget
+    required: false
+  getDetailInvoices:
+    name: getDetailInvoices
+    type: ajax
+    description: Obtiene el detalle agrupado de las facturas.
+    default: /ci/ajax/widget
+    required: false
+  getLastConsumptionsLines:
+    name: getLastConsumptionsLines
+    type: ajax
+    description: Obtiene el detalle del mes de las lineas asociadas a una factura
+    default: /ci/ajax/widget
+    required: false
+  getLastSixInvoices:
+    name: getLastSixInvoices
+    type: ajax
+    description: Obtiene las ultimas 6 facturas
+    default: /ci/ajax/widget
+    required: false
+
+    

@@ -1,0 +1,26 @@
+/**
+ * base.css: Base CSS for BarChart
+ */
+.rn_BarChart .bar:hover, .rn_BarChart .bar.active {
+  fill: #DB021B;
+}
+
+.rn_BarChart .bar {
+  fill: #AAAAAA;
+}
+
+.rn_BarChart body {
+  font: 12px sans-serif;
+}
+
+.rn_BarChart .domain {
+  stroke: #AAAAAA;
+}
+
+.rn_BarChart line {
+  stroke: #AAAAAA;
+}
+
+.rn_BarChart .axis {
+  color: #AAAAAA;
+}

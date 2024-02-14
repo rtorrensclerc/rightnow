@@ -1,0 +1,15 @@
+/**
+ * base.css: Base CSS for puntosCliente
+ */
+.rn_LoginStatus {
+    
+}
+.rn_LogoutLink{
+ 
+    border-radius: 30px;
+    
+    
+    padding: 0px;  
+    border: 5px solid white;
+}
+

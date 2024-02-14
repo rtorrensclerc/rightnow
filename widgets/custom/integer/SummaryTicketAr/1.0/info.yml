@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  ref_no:
+    name: ref_no
+    type: string
+    description: Numero de Requerimiento
+    default: ""
+    required: true
+  two_colum:
+    name: two_colum
+    type: boolean
+    description: Determina si se presenta en columnas
+    default: true
+    required: false

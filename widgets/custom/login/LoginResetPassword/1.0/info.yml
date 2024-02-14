@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  reset_password_ajax_endpoint:
+    name: reset_password_ajax_endpoint
+    type: ajax
+    description: Punto final AJAX por defecto
+    default: /ci/ajax/widget
+    required: false

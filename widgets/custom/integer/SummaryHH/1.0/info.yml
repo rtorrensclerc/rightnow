@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  show_in_colums:
+    name: two_colum
+    description: Determina si se presenta en columnas
+    type: boolean
+    default: true
+    required: false
+  hh_id:
+    name: hh_id
+    description: ID de la HH
+    type: int
+    required: true

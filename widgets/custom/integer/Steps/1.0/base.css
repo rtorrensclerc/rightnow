@@ -1,0 +1,67 @@
+.rn_Steps .steps {
+  display: table;
+  width: 100%;
+  margin: 5px 0;
+  background-color: #eeeeee;
+  padding: 3px;
+  border-radius: 3em;
+}
+
+.rn_Steps .steps li {
+  display: table-cell;
+  padding: 3px;
+  text-align: center;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.rn_Steps .steps li.enabled {
+  cursor: pointer;
+}
+
+.rn_Steps .steps a {
+  display: inline-block;
+  width: 100%;
+}
+
+.rn_Steps .steps li.active .number {
+  background-color: #fff;
+  color: #fff;
+}
+
+.rn_Steps .steps li .number {
+  font-size: 1.6em;
+  background-color: #adadad;
+  color: #565759;
+  border-radius: 2em;
+  width: 2.9em;
+  height: 2.9em;
+  display: inline-block;
+  padding: 0.8em 0.5em;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+}
+
+.rn_Steps .steps li.active .number {
+  background-color: #e23734;
+  color: #fff;
+}
+
+.rn_Steps .steps li.disabled {
+  display: none;
+}
+
+.rn_Steps .steps .name {
+  float: left;
+  color: #565759;
+  margin-top: 26px;
+  padding-left: 10px;
+}
+
+@media (max-width: 992px) {
+  .rn_Steps .steps li {
+    display: inherit;
+    width: 100%;
+  }
+}

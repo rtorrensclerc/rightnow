@@ -1,0 +1,26 @@
+/**
+ * base.css: Base CSS for BarChart
+ */
+.rn_DonutsChart .bar:hover {
+  fill: #DB021B;
+}
+
+.rn_DonutsChart .bar {
+  fill: #AAAAAA;
+}
+
+.rn_DonutsChart body {
+  font: 12px sans-serif;
+}
+
+.rn_DonutsChart .domain {
+  stroke: #AAAAAA;
+}
+
+.rn_DonutsChart line {
+  stroke: #AAAAAA;
+}
+
+.rn_DonutsChart .axis {
+  color: #AAAAAA;
+}

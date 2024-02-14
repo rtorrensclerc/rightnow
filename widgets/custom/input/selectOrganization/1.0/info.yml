@@ -1,0 +1,26 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  getOrganizationByName_ajax_endpoint:
+    name: getOrganizationByName_ajax_endpoint
+    type: ajax
+    description: "Obtener listado de organización por texto"
+    default: /ci/ajax/widget
+    required: false
+  name:
+    name: name
+    type: string
+    description: "Indica el objeto de negocio y el campo al que se debe copiar la
+      ID de la organizaci\xF3n seleccionada. Este atributo suele utilizar el formato
+      'Objeto.Campo'."
+    default: ""
+    required: true
+  label_input:
+    name: label_input
+    type: string
+    description: Etiqueta que se muestra para el control de entrada
+    default: ""
+    required: false

@@ -1,0 +1,26 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+
+  getInvoice_ajax_endpoint:
+    name: getInvoice_ajax_endpoint
+    type: ajax
+    description: getInvoice_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  getInvoiceDetail_ajax_endpoint:
+    name: getInvoiceDetail_ajax_endpoint
+    type: ajax
+    description: getInvoiceDetail_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
+  getInvoiceDTE_ajax_endpoint:
+    name: getInvoiceDTE_ajax_endpoint
+    type: ajax
+    description: getInvoiceDTE_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget    
+

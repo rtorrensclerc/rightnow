@@ -1,0 +1,35 @@
+#
+# Model Extensions
+#
+# Specify the standard models you wish to override here. The key to the array is the name of the standard
+# model to override and the value is the custom model to use as a replacement. The custom model must extend
+# from the standard model or an error will be thrown at runtime.
+#
+#
+# Examples:
+#
+# -Overriding the standard Answer model with a model at development/models/custom/ExtendedSample.php
+#     modelExtensions:
+#         Answer: ExtendedSample
+#
+#
+# -Overriding the standard Contact model with a model at development/models/custom/contacts/ContactCreation.php
+#     modelExtensions:
+#         Contact: contacts/ContactCreation
+#
+modelExtensions:
+#
+# View Partial Extensions
+#
+# Specify the standard view partials you wish to override here. Each item in the array is the name of the standard
+# view partial. The custom file must have the same path and file name as the standard file.
+#
+#
+# Example:
+#
+# -Overriding the standard view partial at core/framework/Views/Partials/Forms/RequiredLabel.html.php
+#  with a view at development/views/Partials/Forms/RequiredLabel.html.php
+#     viewPartialExtensions:
+#         - Partials.Forms.RequiredLabel
+#
+viewPartialExtensions:

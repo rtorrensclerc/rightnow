@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  label_input:
+    name: label_input
+    type: string
+    description: Etiqueta que se muestra para el control de entrada
+    default: Correo Electrónico
+    required: false
+extends:
+  widget: standard/login/EmailCredentials
+  components:
+  - php
+  overrideViewAndLogic: "true"

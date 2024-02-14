@@ -1,0 +1,24 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  asset_search_ajax_endpoint:
+    name: asset_search_ajax_endpoint
+    type: ajax
+    description: Busqueda de datos de HH asociados a la empresa o holding
+    default: /ci/ajax/widget
+    required: false
+  setorganization_ajax_endpoint:
+    name: setorganization_ajax_endpoint
+    type: ajax
+    description: Actuaiza cuenta segun Rut asignado
+    default: /ci/ajax/widget
+    required: false
+  hh:
+    name: hh
+    type: string
+    description: Valor de HH para buscar en rut de holding o empresa segun corresponda
+    default: ""
+    required: false

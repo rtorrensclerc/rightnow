@@ -1,0 +1,24 @@
+.rn_ProductCategoryInputExtended button.rn_DisplayButton {
+    display:inline;
+    background:none;
+    color:#000;
+    cursor:pointer;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+/* make the text label font relative*/
+.rn_ProductCategoryInputExtended .ygtvlabel,
+.rn_ProductCategoryInputExtended .ygtvlabel:link,
+.rn_ProductCategoryInputExtended .ygtvlabel:visited,
+.rn_ProductCategoryInputExtended .ygtvlabel:hover {
+    font-size:inherit;
+}
+.rn_ProductCategoryInputExtended .rn_HintBox {
+    z-index:1;
+}
+.rn_ProductCategoryInputExtended .rn_HintBox.rn_AlwaysVisibleHint {
+    z-index:0;
+}
+.rn_ProductCategoryInputExtended .rn_PanelContainer .yui3-widget-hd {
+    display: none;
+}

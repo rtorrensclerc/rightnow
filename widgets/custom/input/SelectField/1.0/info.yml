@@ -1,0 +1,38 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  filter:
+    name: filter
+    type: BOOLEAN
+    description: Muestra o no el buscador de ítems
+  colapsible:
+    name: colapsible
+    type: BOOLEAN
+    description: Determina si se colapsa al seleccionar un valor
+  read_only:
+    name: read_only
+    type: boolean
+    description: "Determina si se comporta como solo lectura o no"
+    default: false
+    required: false
+  required:
+    name: required
+    type: boolean
+    description: "Determina si es obligatorio"
+    default: false
+    required: false
+  disabled:
+    name: disabled
+    type: boolean
+    description: "Determina si se desabilita"
+    default: false
+    required: false
+  visible:
+    name: visible
+    type: boolean
+    description: "Determina si se visualiza"
+    default: true
+    required: false

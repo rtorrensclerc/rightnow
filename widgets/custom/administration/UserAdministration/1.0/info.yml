@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  saveForm_ajax_endpoint:
+    name: saveForm_ajax_endpoint
+    type: ajax
+    description: Ajax para guardar/actualizar los datos de un usuario
+    default: /ci/ajax/widget
+    required: false

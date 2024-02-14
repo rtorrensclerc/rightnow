@@ -1,0 +1,57 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  label_username:
+    name: label_username
+    description: rn:msg:LABEL_DISPLAY_USERNAME_BOX_LBL
+    default: ""
+    type: STRING
+  label_password:
+    name: label_password
+    description: rn:msg:LABEL_DISPLAY_PASSWORD_BOX_LBL
+    default: ""
+    type: STRING
+  placeholder_password:
+    name: placeholder_password
+    type: string
+    description: "Placeholder que se muestra junto al cuadro de la contrase\xF1a"
+    default: "Contraseña"
+    required: false
+  placeholder_username:
+    name: placeholder_username
+    type: string
+    description: Placeholder que se muestra junto al cuadro de nombre de usuario
+    default: "Correo Electrónico"
+    required: false
+  is_dialog:
+    name: is_dialog
+    type: boolean
+    description: Determina si de presentará como un dialogo o no.
+    default: true
+    required: false
+  redirect_url:
+    name: redirect_url
+    type: string
+    description: URL de redirección
+    default: "/app/ask"
+    required: false
+  url_forget_password:
+    name: url_forget_password
+    type: string
+    description: URL pantalla de recuperación de contraseña
+    default: "/app/utils/account_assistance"
+    required: false
+  show_forget_password:
+    name: show_forget_password
+    description: Determina si presentar el enlace de recuperar contraseña
+    default: true
+    type: boolean
+    required: false
+extends:
+  widget: standard/login/LoginForm
+  components:
+  - php
+  overrideViewAndLogic: "true"

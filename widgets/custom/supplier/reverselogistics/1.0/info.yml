@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  read_only:
+    name: read_only
+    type: boolean
+    description: "Determina si se comporta como solo lectura o no"
+    default: false
+    required: false
+  createIncident_ajax_endpoint:
+    name: createIncident_ajax_endpoint
+    type: ajax
+    description: createIncident_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget

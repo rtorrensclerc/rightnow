@@ -1,0 +1,98 @@
+
+.rn_SummaryBudget {
+    padding: 0 10px;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.rn_SummaryBudget h2 {
+    text-align: center;
+}
+.rn_SummaryBudget .limit {
+    width: 1%;
+    /* background: #000; */
+    /* height: 20px; */
+    float: left;
+}
+.rn_SummaryBudget .limit .limit-start {
+
+}
+.rn_SummaryBudget .limit .limit-end {
+
+}
+
+
+.rn_SummaryBudget .bars {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.rn_SummaryBudget .bars .barContainer {
+    width: 98%;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background: #ccc;
+    margin: 3px 0;
+    border-radius: 10px;
+}
+
+.rn_SummaryBudget .bars .barConsumed .barValue {
+    color: #fff;
+    padding: 3px;
+}
+
+.rn_SummaryBudget .bars .barConsumed {
+    float: left;
+    border-radius: 10px;
+}
+
+.rn_SummaryBudget .bars .barConsumed.barConsumedPositive {
+    background-color: #1e981d;
+}
+
+.rn_SummaryBudget .bars .barConsumed.barConsumedNegative {
+    background-color: #e23734;
+}
+
+
+.rn_SummaryBudget .axis {
+    text-align: center;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.rn_SummaryBudget .axis .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.rn_SummaryBudget .axis .icon.iconPositive {
+  background-color: #1e981d;
+}
+
+.rn_SummaryBudget .axis .icon.iconNegative {
+  background-color: #e23734;
+}
+
+.rn_SummaryBudget .axis .description {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3px;
+}
+
+.rn_SummaryBudget .bars .barConsumed.barConsumedPositive.limited_exceded {
+      background-color: #e23734;
+}
+
+.rn_SummaryBudget .axis .icon.iconPositive.limited_exceded {
+      background-color: #e23734;
+}

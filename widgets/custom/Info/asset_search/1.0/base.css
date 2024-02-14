@@ -1,0 +1,11 @@
+/**
+ * base.css: Base CSS for asset_search
+ */
+
+.rn_asset_search {}
+
+.rn_asset_search_label {
+    width: 50%;
+    height: 200px;
+    background-color: #FFFFFF;
+}

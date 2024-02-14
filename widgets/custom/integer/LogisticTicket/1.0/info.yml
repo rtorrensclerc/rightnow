@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  ref_no:
+    name: ref_no
+    type: string
+    description: Numero de Ticket
+    default: ""
+    required: true

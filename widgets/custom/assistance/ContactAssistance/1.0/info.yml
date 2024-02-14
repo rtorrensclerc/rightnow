@@ -1,0 +1,24 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  p_p:
+    name: p_p
+    type: string
+    description: define el valor de Producto
+    default: ""
+    required: false
+  p_c:
+    name: p_c
+    type: string
+    description: Define Valor de Categoria
+    default: ""
+    required: false
+  kw:
+    name: kw
+    type: string
+    description: Define el valor o string de busqueda de ayuda
+    default: ""
+    required: false

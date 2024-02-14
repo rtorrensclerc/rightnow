@@ -1,0 +1,11 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  ref_no:
+    name: ref_no
+    description: "Número de Referencia"
+    type: string
+    required: true

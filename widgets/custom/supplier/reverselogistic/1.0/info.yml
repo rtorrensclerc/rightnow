@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  default_ajax_endpoint:
+    name: default_ajax_endpoint
+    type: ajax
+    description: Punto final AJAX por defecto
+    default: /ci/ajax/widget
+    required: false
+  createIncident_ajax_endpoint:
+    name: createIncident_ajax_endpoint
+    type: ajax
+    description: createIncident_ajax_endpoint
+    required: false
+    default: /ci/ajax/widget
